@@ -5,7 +5,7 @@
     }
   },
   "name": "asteroidetecnologia/cielo",
-  "description": "Integração com a API 3.0 da Cielo",
+  "description": "Integração com a API 3.0 da Cielo da Asteroide",
   "license": "MIT",
   "type": "library",
   "require": {
