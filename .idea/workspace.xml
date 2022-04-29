@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a8d1c8e-16ac-40cd-97f5-d79dcb8b0c59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cielo/API30/Ecommerce/PaymentFacilitator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cielo/API30/Ecommerce/SubEstablishment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cielo/API30/Ecommerce/Payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cielo/API30/Ecommerce/Payment.php" afterDir="false" />
-    </list>
+    <list default="true" id="9a8d1c8e-16ac-40cd-97f5-d79dcb8b0c59" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Cielo/API30/Ecommerce" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651244422239</updated>
-      <workItem from="1651244426466" duration="1984000" />
+      <workItem from="1651244426466" duration="2418000" />
     </task>
     <servers />
   </component>
