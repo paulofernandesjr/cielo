@@ -108,7 +108,7 @@ class Payment implements \JsonSerializable
 
     private $instructions;
 
-    private $paymentFacilitator;
+    private $PaymentFacilitator;
 
     /**
      * Payment constructor.
@@ -196,7 +196,7 @@ class Payment implements \JsonSerializable
         $this->demonstrative  = isset($data->Demonstrative) ? $data->Demonstrative : null;
         $this->identification = isset($data->Identification) ? $data->Identification : null;
         $this->instructions   = isset($data->Instructions) ? $data->Instructions : null;
-        $this->paymentFacilitator   = isset($data->PaymentFacilitator) ? $data->PaymentFacilitator : null;
+        $this->PaymentFacilitator   = isset($data->PaymentFacilitator) ? $data->PaymentFacilitator : null;
     }
 
     /**
@@ -1113,15 +1113,15 @@ class Payment implements \JsonSerializable
      */
     public function getPaymentFacilitator()
     {
-        return $this->paymentFacilitator;
+        return $this->PaymentFacilitator;
     }
 
     /**
-     * @param mixed $paymentFacilitator
+     * @param mixed $PaymentFacilitator
      */
-    public function setPaymentFacilitator($paymentFacilitator)
+    public function setPaymentFacilitator($PaymentFacilitator)
     {
-        $this->paymentFacilitator = $paymentFacilitator;
+        $this->PaymentFacilitator = $PaymentFacilitator;
     }
 
 }
