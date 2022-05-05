@@ -10,14 +10,14 @@ namespace Cielo\API30\Ecommerce;
 class PaymentFacilitator implements \JsonSerializable
 {
 
-    private $establishment_code;
+    private $EstablishmentCode;
 
-    private $sub_establishment;
+    private $SubEstablishment;
 
-    public function __construct($establishment_code = null, $sub_establishment = null)
+    public function __construct($EstablishmentCode = null, $SubEstablishment = null)
     {
-        $this->setEstablishmentCode($establishment_code);
-        $this->setSubEstablishment($sub_establishment);
+        $this->setEstablishmentCode($EstablishmentCode);
+        $this->setSubEstablishment($SubEstablishment);
 
     }
 
@@ -31,24 +31,24 @@ class PaymentFacilitator implements \JsonSerializable
 
     public function getEstablishmentCode()
     {
-        return $this->establishment_code;
+        return $this->EstablishmentCode;
     }
 
-    public function setEstablishmentCode($establishment_code)
+    public function setEstablishmentCode($EstablishmentCode)
     {
-        $this->establishment_code = $establishment_code;
+        $this->EstablishmentCode = $EstablishmentCode;
 
         return $this;
     }
 
     public function getSubEstablishment()
     {
-        return $this->sub_establishment;
+        return $this->SubEstablishment;
     }
 
-    public function setSubEstablishment($sub_establishment)
+    public function setSubEstablishment($SubEstablishment)
     {
-        $this->sub_establishment = $sub_establishment;
+        $this->SubEstablishment = $SubEstablishment;
 
         return $this;
     }

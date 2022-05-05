@@ -10,15 +10,15 @@ namespace Cielo\API30\Ecommerce;
 class SubEstablishment implements \JsonSerializable
 {
 
-    private $establishment_code;
-    private $identity;
-    private $mcc;
-    private $address;
-    private $city;
-    private $state;
-    private $country_code;
-    private $postal_code;
-    private $phone_number;
+    private $EstablishmentCode;
+    private $Identity;
+    private $Mcc;
+    private $Address;
+    private $City;
+    private $State;
+    private $CountryCode;
+    private $PostalCode;
+    private $PhoneNumber;
 
 
     public function __construct($establishment_code = null)
@@ -36,12 +36,12 @@ class SubEstablishment implements \JsonSerializable
 
     public function getEstablishmentCode()
     {
-        return $this->establishment_code;
+        return $this->EstablishmentCode;
     }
 
-    public function setEstablishmentCode($establishment_code)
+    public function setEstablishmentCode($EstablishmentCode)
     {
-        $this->establishment_code = $establishment_code;
+        $this->EstablishmentCode = $EstablishmentCode;
 
         return $this;
     }
@@ -51,15 +51,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getIdentity()
     {
-        return $this->identity;
+        return $this->Identity;
     }
 
     /**
-     * @param mixed $identity
+     * @param mixed $Identity
      */
-    public function setIdentity($identity)
+    public function setIdentity($Identity)
     {
-        $this->identity = $identity;
+        $this->Identity = $Identity;
     }
 
     /**
@@ -67,15 +67,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getMcc()
     {
-        return $this->mcc;
+        return $this->Mcc;
     }
 
     /**
-     * @param mixed $mcc
+     * @param mixed $Mcc
      */
-    public function setMcc($mcc)
+    public function setMcc($Mcc)
     {
-        $this->mcc = $mcc;
+        $this->Mcc = $Mcc;
     }
 
     /**
@@ -83,15 +83,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getAddress()
     {
-        return $this->address;
+        return $this->Address;
     }
 
     /**
-     * @param mixed $address
+     * @param mixed $Address
      */
-    public function setAddress($address)
+    public function setAddress($Address)
     {
-        $this->address = $address;
+        $this->Address = $Address;
     }
 
     /**
@@ -99,15 +99,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getCity()
     {
-        return $this->city;
+        return $this->City;
     }
 
     /**
-     * @param mixed $city
+     * @param mixed $City
      */
-    public function setCity($city)
+    public function setCity($City)
     {
-        $this->city = $city;
+        $this->City = $City;
     }
 
     /**
@@ -115,15 +115,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getState()
     {
-        return $this->state;
+        return $this->State;
     }
 
     /**
-     * @param mixed $state
+     * @param mixed $State
      */
-    public function setState($state)
+    public function setState($State)
     {
-        $this->state = $state;
+        $this->State = $State;
     }
 
     /**
@@ -131,15 +131,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getCountryCode()
     {
-        return $this->country_code;
+        return $this->CountryCode;
     }
 
     /**
-     * @param mixed $country_code
+     * @param mixed $CountryCode
      */
-    public function setCountryCode($country_code)
+    public function setCountryCode($CountryCode)
     {
-        $this->country_code = $country_code;
+        $this->CountryCode = $CountryCode;
     }
 
     /**
@@ -147,15 +147,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getPostalCode()
     {
-        return $this->postal_code;
+        return $this->PostalCode;
     }
 
     /**
-     * @param mixed $postal_code
+     * @param mixed $PostalCode
      */
-    public function setPostalCode($postal_code)
+    public function setPostalCode($PostalCode)
     {
-        $this->postal_code = $postal_code;
+        $this->PostalCode = $PostalCode;
     }
 
     /**
@@ -163,15 +163,15 @@ class SubEstablishment implements \JsonSerializable
      */
     public function getPhoneNumber()
     {
-        return $this->phone_number;
+        return $this->PhoneNumber;
     }
 
     /**
-     * @param mixed $phone_number
+     * @param mixed $PhoneNumber
      */
-    public function setPhoneNumber($phone_number)
+    public function setPhoneNumber($PhoneNumber)
     {
-        $this->phone_number = $phone_number;
+        $this->PhoneNumber = $PhoneNumber;
     }
 
 }
