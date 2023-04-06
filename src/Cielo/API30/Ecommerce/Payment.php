@@ -110,6 +110,8 @@ class Payment implements \JsonSerializable
 
     private $PaymentFacilitator;
 
+    private $ExternalAuthentication;
+
     /**
      * Payment constructor.
      *
@@ -197,6 +199,7 @@ class Payment implements \JsonSerializable
         $this->identification = isset($data->Identification) ? $data->Identification : null;
         $this->instructions   = isset($data->Instructions) ? $data->Instructions : null;
         $this->PaymentFacilitator   = isset($data->PaymentFacilitator) ? $data->PaymentFacilitator : null;
+        $this->ExternalAuthentication   = isset($data->ExternalAuthentication) ? $data->ExternalAuthentication : null;
     }
 
     /**
@@ -1122,6 +1125,26 @@ class Payment implements \JsonSerializable
     public function setPaymentFacilitator($PaymentFacilitator)
     {
         $this->PaymentFacilitator = $PaymentFacilitator;
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getExternalAuthentication()
+    {
+        return $this->ExternalAuthentication;
+    }
+
+    /**
+     * @param mixed $ExternalAuthentication
+     */
+    public function setExternalAuthentication($ExternalAuthentication)
+    {
+        $this->ExternalAuthentication = $ExternalAuthentication;
+
+        return $this;
     }
 
 }
