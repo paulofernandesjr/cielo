@@ -12,6 +12,7 @@ class SubEstablishment implements \JsonSerializable
 
     private $EstablishmentCode;
     private $Identity;
+    private $CompanyName;
     private $Mcc;
     private $Address;
     private $City;
@@ -172,6 +173,22 @@ class SubEstablishment implements \JsonSerializable
     public function setPhoneNumber($PhoneNumber)
     {
         $this->PhoneNumber = $PhoneNumber;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCompanyName()
+    {
+        return $this->CompanyName;
+    }
+
+    /**
+     * @param mixed $CompanyName
+     */
+    public function setCompanyName($CompanyName)
+    {
+        $this->CompanyName = $CompanyName;
     }
 
 }
